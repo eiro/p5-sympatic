@@ -1,6 +1,15 @@
+=encoding utf8
+
 =head1 NAME
 
 Sympatic - a simpler to read perl
+
+=head1 STATUS
+
+=for HTML
+<a href="http://travis-ci.org/sympa-community/p5-sympatic/">
+<img src="https://travis-ci.org/sympa-community/p5-sympatic.svg?branch=master">
+</a>
 
 =head1 ACKNOLEDGEMENTS
 
