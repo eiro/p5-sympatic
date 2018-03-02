@@ -1,6 +1,9 @@
 use Sympatic;
 use Test::More;
 
+skip_all q(as utf8::all wasn't debated enough, it is temporary removed from the list);
+
+
 open my $read_fh , '<','t/12_utf_all.t';
 open my $write_fh, '>','t/12_utf_all.write.test';
 
