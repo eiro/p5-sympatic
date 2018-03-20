@@ -1,6 +1,6 @@
 package Person;
 use Types::Standard qw( Str );
-use Sympatic -oo;
+use Sympatic;
 
 has [qw( firstname lastname )] =>
     ( is       => 'rw'
